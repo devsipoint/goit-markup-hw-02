@@ -35,6 +35,7 @@ body {
   color: var(--main-text-color-slate);
   background-color: var(--main-bg-color-wt);
   font-size: 16px;
+  font-family: var(--main-font);
   
 }
 
@@ -68,8 +69,7 @@ body {
 }
 /* header section */
 
-.header-email,
-.header-phone {
+.contacts-link {
   color: var(--main-text-color-slate);
   font-weight: 400;
   font-size: 16px;
@@ -77,10 +77,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-phone:hover,
-.header-phone:focus,
-.header-email:hover,
-.header-email:focus {
+.contacts-link:hover,
+.contacts-link:focus
+ {
   color: var(--main-text-color-ocean);
 }
 
@@ -127,6 +126,9 @@ body {
   color: var(--main-text-color-ocean);
 }
 
+.header-address {
+  font-style: normal;
+}
 /* hero section */
 .hero {
   background-color: var(--main-bg-color-dk);
@@ -144,6 +146,7 @@ body {
 .hero-btn {
   width: 169px;
   height: 56px;
+  font-family: var(--main-font);
   color: var(--btn-text-color-w);
   background-color: var(--btn-bgc-color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -274,6 +277,7 @@ address {
 .filter-btn {
   background-color: var(--main-bg-color-cloud);
   color: var(--main-text-color-iris);
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
