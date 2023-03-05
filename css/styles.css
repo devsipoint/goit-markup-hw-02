@@ -2,7 +2,7 @@
 :root {
   /* fonts */
   --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", san-serif;
+  --secondary-font: "Raleway", sans-serif;
 
   /* text colors */
   --main-text-color-nb: #2E2F42;
@@ -221,7 +221,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--brand-color-iris);
   text-transform: uppercase;
@@ -231,7 +231,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--brand-color-cloud);
   text-transform: uppercase;
